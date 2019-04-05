@@ -1,6 +1,6 @@
 //angle radius measuring items
 //by CloudMaker
-//Version 1.1
+//Version 1.5
 
 
 sq1=sqrt(2);
@@ -11,7 +11,7 @@ attach_dia=2;
 attach_ray=attach_dia/2;
 attach_angle=0;
 
-fs=3; //fontsiize  
+fs=4; //fontsiize  
 fname="Arial Black:style=regular";
 
 offs=7;
