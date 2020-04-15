@@ -1,6 +1,6 @@
 //angle radius measuring items
 //by CloudMaker
-//Version 1.5
+//Version 1.1
 
 
 sq1=sqrt(2);
@@ -10,9 +10,6 @@ e=0.01;  //extra size/offset used to get rid of schimmering in difference()
 attach_dia=2;
 attach_ray=attach_dia/2;
 attach_angle=0;
-
-fs=4; //fontsiize  
-fname="Arial Black:style=regular";
 
 offs=7;
 offsf=10;
@@ -47,7 +44,7 @@ for (i=[0:5])
 
 module anglepiece(radius){
   
-  
+  fs=3; //fontsiize  
   depth=8;
   fpos=(depth-fs)/2;  
     
@@ -79,7 +76,7 @@ module anglepiece(radius){
   translate([radius/sq1-fs,radius/sq1-fs,4])  
     linear_extrude(height=1)
     rotate([0,0,-45])
-       text(str(radius),font=fname,size=fs,valign="center",halign="left"); 
+       text(str(radius),size=fs,valign="center",halign="left"); 
   
     
 };   
