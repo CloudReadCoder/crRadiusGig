@@ -1,6 +1,6 @@
 //angle radius measuring items
 //by CloudMaker
-//Version 1.1
+//Version 1.2
 
 
 sq1=sqrt(2);
