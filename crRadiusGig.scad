@@ -1,6 +1,11 @@
-//angle radius measuring items
-//by CloudMaker
-//Version 1.2
+/*
+ Radius Measuring Gig
+ (C)opyright 2019 by CloudReadMaker / CloudReadCoder
+ This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+ http://creativecommons.org/licenses/by-nc-sa/4.0/ 
+*/
+
+//Version: 1.6
 
 
 sq1=sqrt(2);
